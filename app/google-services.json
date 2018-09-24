@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "259087639078",
+    "firebase_url": "https://heychat-9a134.firebaseio.com",
+    "project_id": "heychat-9a134",
+    "storage_bucket": "heychat-9a134.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259087639078:android:f3edd0235252a765",
+        "android_client_info": {
+          "package_name": "com.jaddu.heychat.heychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259087639078-98htie6vrha2f1h230f6hh4kb0irptjr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jaddu.heychat.heychat",
+            "certificate_hash": "384854c640638026ad38f1251565d1910fe8b821"
+          }
+        },
+        {
+          "client_id": "259087639078-jo1atnnp1jj2f6ub63dcsvdt9tolee7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa48iqAJ9T6HMKXEBe6oosmFBTd_W57T8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259087639078-jo1atnnp1jj2f6ub63dcsvdt9tolee7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

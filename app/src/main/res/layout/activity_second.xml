@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_second"
+    android:background="@drawable/bg_shape"
+    tools:context=".SecondActivity">
+
+    <!--<ImageView-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:id="@+id/emoji_button"-->
+        <!--android:padding="4dp"-->
+        <!--android:src="@mipmap/emojismiley"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--/>-->
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:id="@+id/submit_button"-->
+        <!--android:padding="4dp"-->
+        <!--android:src="@android:drawable/ic_menu_send"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--/>-->
+
+    <!--<hani.momanii.supernova_emoji_library.Helper.EmojiconEditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/emojiicon_edit_text"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_toRightOf="@+id/email_button"-->
+        <!--android:layout_toLeftOf="@+id/submit_button"-->
+        <!--app:emojiconSize="28sp"-->
+        <!--/>-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:src="@android:drawable/ic_menu_send"
+        android:tint="#ffffff"
+        app:fabSize="mini" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/fab"
+        android:hint="Type a message"
+        android:paddingBottom="5dp"
+        android:layout_alignParentBottom="true"
+        tools:ignore="UnknownId">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_of_message"
+        android:layout_alignParentTop="true"
+        android:transcriptMode="alwaysScroll"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/fab"
+        android:paddingBottom="10dp"
+        android:dividerHeight="10dp"
+        android:divider="@android:color/transparent"
+        android:layout_marginBottom="16dp"
+        tools:ignore="UnknownId">
+
+    </ListView>
+
+</RelativeLayout>
